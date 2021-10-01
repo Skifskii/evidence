@@ -1,0 +1,167 @@
+
+body {
+    margin: 0;
+    font-family: Andale Mono, monospace;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+.header {
+    padding: 22px 0;
+    background-color: black;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Nav */
+
+.nav {
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav__link {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.75;
+    font-size: 16px;
+
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:hover {
+    color: white;
+    opacity: 1;
+}
+
+
+/* Intro */
+
+.intro {
+    margin-top: 60px;
+}
+
+.intro__inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Goods */
+
+.goods {
+    margin: 100px 0;
+}
+
+.goods__inner {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.goods__item {
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 30%;
+    border: 3px solid rgb(255, 255, 255);
+    transition: border-color 0.15s linear;
+}
+
+.goods__item:hover {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.goods__photo {
+    height: 300px;
+}
+
+/* увеличение картинки */
+.scale {
+    overflow: hidden;
+}
+.scale {
+    transition: 0.5s;
+    display: block;
+}
+.scale:hover {
+    transform: scale(1.05); 
+}
+/*-----------------------*/
+
+
+.goods__name {
+    font-size: 18px;
+}
+
+.goods__price {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 0;
+    background-color: black;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    color: rgb(95, 95, 95);
+}
+
+        
+
