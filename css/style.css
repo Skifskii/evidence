@@ -93,10 +93,6 @@ body {
     border: 5px dotted rgb(0, 0, 0);
 }
 
-.gallery__item {
-
-}
-
 
 /* Goods */
 
@@ -167,12 +163,54 @@ body {
     justify-content: space-between;
 }
 
-.product__photo {
+
+.product__photo_vampire_t {
+    padding: 50px;
+    height: 635px;
     margin-right: 20px;
     width: 50%;
     border: 3px dashed rgb(0, 0, 0);
+    background: url(../img/vampire_front.png);
+    background-size: cover;
+    transition: 0.18s;
 }
 
+.product__photo_vampire_t:hover {
+    background: url(../img/vampire_back.png);
+    background-size: cover;
+}
+
+.product__photo_demons {
+    padding: 50px;
+    height: 635px;
+    margin-right: 20px;
+    width: 50%;
+    border: 3px dashed rgb(0, 0, 0);
+    background: url(../img/demons_front.png);
+    background-size: cover;
+    transition: 0.18s;
+}
+
+.product__photo_demons:hover {
+    background: url(../img/demons_back.png);
+    background-size: cover;
+}
+
+.product__photo_vampire_shorts {
+    padding: 50px;
+    height: 635px;
+    margin-right: 20px;
+    width: 50%;
+    border: 3px dashed rgb(0, 0, 0);
+    background: url(../img/vampire_shorts_front.png);
+    background-size: cover;
+    transition: 0.18s;
+}
+
+.product__photo_vampire_shorts:hover {
+    background: url(../img/vampire_shorts_back.png);
+    background-size: cover;
+}
 
 .product__info {
     
